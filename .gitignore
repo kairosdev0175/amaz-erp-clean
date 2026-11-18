@@ -1,0 +1,31 @@
+# Laravel
+/vendor
+/node_modules
+/storage/*
+!/storage/.gitignore
+/public/hot
+/public/storage
+
+# Uploads (dinámicos)
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Env
+.env
+.env.*
+
+# Logs y debug
+*.log
+phpunit_*.txt
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache
+bootstrap/cache/*.php
+
+# Otros
+.scannerwork/
